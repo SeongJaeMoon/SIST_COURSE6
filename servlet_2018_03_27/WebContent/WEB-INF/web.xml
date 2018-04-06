@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+	xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd"
+	id="WebApp_ID" version="3.1">
+	<display-name>servlet_20180327</display-name>
+	<welcome-file-list>
+		<welcome-file>index.html</welcome-file>
+		<welcome-file>index.htm</welcome-file>
+		<welcome-file>index.jsp</welcome-file>
+		<welcome-file>default.html</welcome-file>
+		<welcome-file>default.htm</welcome-file>
+		<welcome-file>default.jsp</welcome-file>
+	</welcome-file-list>
+
+	<servlet>
+		<servlet-name>sample001</servlet-name>
+		<servlet-class>com.test.Sample001</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>sample001</servlet-name>
+		<url-pattern>/sample001</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>sample002</servlet-name>
+		<servlet-class>com.test.Sample002</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>sample002</servlet-name>
+		<url-pattern>/sample002</url-pattern>
+	</servlet-mapping>
+
+
+	<servlet>
+		<servlet-name>sample003</servlet-name>
+		<servlet-class>com.test.Sample003</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>sample003</servlet-name>
+		<url-pattern>/sample003</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>sample004</servlet-name>
+		<servlet-class>com.test.Sample004</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>sample004</servlet-name>
+		<url-pattern>/sample004</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>sample005</servlet-name>
+		<servlet-class>com.test.Sample005</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>sample005</servlet-name>
+		<url-pattern>/sample005</url-pattern>
+	</servlet-mapping>
+
+</web-app>
